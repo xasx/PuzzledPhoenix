@@ -13,6 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PuzzledPhoenix.Core", "Puzz
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PuzzledPhoenix.Core.Tests.xUnit", "PuzzledPhoenix.Core.Tests.xUnit\PuzzledPhoenix.Core.Tests.xUnit.csproj", "{14D67FC6-49B5-4E3E-8D39-9261126C8161}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8B34C502-2B81-41D3-8C11-51BC15C6A59C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
