@@ -63,7 +63,7 @@
             </uap5:AppExecutionAlias>
           </uap5:Extension>
         <uap:Extension Category="windows.protocol">
-          <uap:Protocol Name="wtsapp">
+          <uap:Protocol Name="puzphx">
             <uap:Logo>Assets\Icon.png</uap:Logo>
             <uap:DisplayName>PuzzledPhoenix</uap:DisplayName>
           </uap:Protocol>
