@@ -136,27 +136,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\UnitTestApp.rd.xml" />
-    <Content Include="..\PuzzledPhoenix\Assets\LockScreenLogo.scale-200.png">
-      <Link>Assets\LockScreenLogo.scale-200.png</Link>
-    </Content>
-    <Content Include="..\PuzzledPhoenix\Assets\SplashScreen.scale-200.png">
-      <Link>Assets\SplashScreen.scale-200.png</Link>
-    </Content>
-    <Content Include="..\PuzzledPhoenix\Assets\Square150x150Logo.scale-200.png">
-      <Link>Assets\Square150x150Logo.scale-200.png</Link>
-    </Content>
-    <Content Include="..\PuzzledPhoenix\Assets\Square44x44Logo.scale-200.png">
-      <Link>Assets\Square44x44Logo.scale-200.png</Link>
-    </Content>
-    <Content Include="..\PuzzledPhoenix\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
-      <Link>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Link>
-    </Content>
-    <Content Include="..\PuzzledPhoenix\Assets\StoreLogo.png">
-      <Link>Assets\StoreLogo.png</Link>
-    </Content>
-    <Content Include="..\PuzzledPhoenix\Assets\Wide310x150Logo.scale-200.png">
-      <Link>Assets\Wide310x150Logo.scale-200.png</Link>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="PuzzledPhoenix.Tests.xUnit_TemporaryKey.pfx" />

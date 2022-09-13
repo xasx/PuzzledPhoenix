@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
 using PuzzledPhoenix.Core.Models;
 
 namespace PuzzledPhoenix.Core.Services
@@ -507,14 +506,15 @@ namespace PuzzledPhoenix.Core.Services
             if (_gallerySampleData == null)
             {
                 _gallerySampleData = new List<SampleImage>();
-                for (int i = 1; i <= 10; i++)
+                for (int i = 1; i <= 21; i++)
                 {
                     _gallerySampleData.Add(new SampleImage()
                     {
                         ID = $"{i}",
-                        Source = $"{localResourcesPath}/SampleData/SamplePhoto{i}.png",
-                        Name = $"Sample picture {i}"
+                        Source = $"{localResourcesPath}/SampleData/Photo_{i:D2}.jpg",
+                        Name = $"Photo #{i}"
                     });
+
                 }
             }
 

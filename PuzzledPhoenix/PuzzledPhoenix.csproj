@@ -122,6 +122,9 @@
     <PackageReference Include="CommunityToolkit.Mvvm">
       <Version>8.0.0</Version>
     </PackageReference>
+    <PackageReference Include="MetadataExtractor">
+      <Version>2.7.2</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.14</Version>
     </PackageReference>
@@ -355,16 +358,27 @@
     <Content Include="Assets\LargeTile.scale-400.png" />
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\PlaceholderImage.png" />
-    <Content Include="Assets\SampleData\SamplePhoto1.png" />
-    <Content Include="Assets\SampleData\SamplePhoto10.png" />
-    <Content Include="Assets\SampleData\SamplePhoto2.png" />
-    <Content Include="Assets\SampleData\SamplePhoto3.png" />
-    <Content Include="Assets\SampleData\SamplePhoto4.png" />
-    <Content Include="Assets\SampleData\SamplePhoto5.png" />
-    <Content Include="Assets\SampleData\SamplePhoto6.png" />
-    <Content Include="Assets\SampleData\SamplePhoto7.png" />
-    <Content Include="Assets\SampleData\SamplePhoto8.png" />
-    <Content Include="Assets\SampleData\SamplePhoto9.png" />
+    <Content Include="Assets\SampleData\Photo_01.jpg" />
+    <Content Include="Assets\SampleData\Photo_02.jpg" />
+    <Content Include="Assets\SampleData\Photo_03.jpg" />
+    <Content Include="Assets\SampleData\Photo_04.jpg" />
+    <Content Include="Assets\SampleData\Photo_05.jpg" />
+    <Content Include="Assets\SampleData\Photo_06.jpg" />
+    <Content Include="Assets\SampleData\Photo_07.jpg" />
+    <Content Include="Assets\SampleData\Photo_08.jpg" />
+    <Content Include="Assets\SampleData\Photo_09.jpg" />
+    <Content Include="Assets\SampleData\Photo_10.jpg" />
+    <Content Include="Assets\SampleData\Photo_11.jpg" />
+    <Content Include="Assets\SampleData\Photo_12.jpg" />
+    <Content Include="Assets\SampleData\Photo_13.jpg" />
+    <Content Include="Assets\SampleData\Photo_14.jpg" />
+    <Content Include="Assets\SampleData\Photo_15.jpg" />
+    <Content Include="Assets\SampleData\Photo_16.jpg" />
+    <Content Include="Assets\SampleData\Photo_17.jpg" />
+    <Content Include="Assets\SampleData\Photo_18.jpg" />
+    <Content Include="Assets\SampleData\Photo_19.jpg" />
+    <Content Include="Assets\SampleData\Photo_20.jpg" />
+    <Content Include="Assets\SampleData\Photo_21.jpg" />
     <Content Include="Assets\SmallTile.scale-100.png" />
     <Content Include="Assets\SmallTile.scale-125.png" />
     <Content Include="Assets\SmallTile.scale-150.png" />
@@ -434,6 +448,7 @@
       <Name>PuzzledPhoenix.Core</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
